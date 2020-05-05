@@ -10,7 +10,7 @@ class Contact(db.Model):
 
     @property
     def name(self):
-        return self.first_name + " " + self.last_name
+        return self.first_name + ' ' + self.last_name
 
     def __repr__(self):
-        return '<Contact name: {0}, email:{1} >'.format(self.name, self.email)
+        return '<Contact name: {0}, email: {1} >'.format(self.name, self.email)
