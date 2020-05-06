@@ -10,7 +10,7 @@ from database import db
 
 
 def create_app():
-    app = Flask('pvz')
+    app = Flask('exampel')
 
     app.register_blueprint(admin_bp, url_prefix='/admin')
     app.register_blueprint(site_bp)
