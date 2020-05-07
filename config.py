@@ -14,8 +14,7 @@ class BaseConfig(object):
 
 class ProdConfig(BaseConfig):
     DEBUG = False
-    SQLALCHEMY_DATABASE_URI = 'postgres://bonbtmgvqetlra:181b2937b2b3b5dc8f1a6dc8d9dbbd2c35ea9ee1abdc347a2b572d28cf7f3f6e@ec2-54-217-204-34.eu-west-1.compute.amazonaws.com:5432/den7pape66kgnp'
-
+    SQLALCHEMY_DATABASE_URI = 'postgres://xobzipcncvwotj:985b1f28540a1934d60bf8bc7bace58da2430f1f82c21be3613f531cdc67466f@ec2-54-217-204-34.eu-west-1.compute.amazonaws.com:5432/dafi5uhd5oebg4'
 
 class HerokuConfig(BaseConfig):
     DEBUG = False
