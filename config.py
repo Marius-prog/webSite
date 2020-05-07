@@ -7,9 +7,9 @@ class BaseConfig(object):
     DEBUG = False
 
 
-class DevConfig(BaseConfig):
-    DEBUG = True
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///data/db.sqlite'
+# class DevConfig(BaseConfig):
+#     DEBUG = True
+#     SQLALCHEMY_DATABASE_URI = 'sqlite:///data/db.sqlite'
 
 
 class ProdConfig(BaseConfig):
