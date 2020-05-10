@@ -2,6 +2,7 @@ import os
 
 from flask import Flask
 
+
 from routes.admin import bp as admin_bp
 from routes.site import bp as site_bp
 from routes.health import bp as health_bp
